@@ -10,5 +10,7 @@ This is a useful docker image for various test use, it contains
 * a minimal web server (busybox httpd)
 
 
+Current image size is `9.95MB`
+
 # usage
 `docker pull hangyan/toolbox`
