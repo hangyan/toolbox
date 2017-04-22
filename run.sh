@@ -1,3 +1,3 @@
 #!/bin/sh
 
-busybox httpd -f -p 8000 -h /web
+busybox httpd -f -p 9527 -h /web
