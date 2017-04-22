@@ -2,7 +2,7 @@ FROM gliderlabs/alpine:3.4
 
 MAINTAINER Hang Yan <hangyan@hotmail.com>
 
-RUN apk update && apk add htop nano bashb curl busybox && rm -rf /var/cache/apk/*
+RUN apk update && apk add htop nano bash curl busybox && rm -rf /var/cache/apk/*
 
 COPY run.sh /
 
